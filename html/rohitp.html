@@ -1,0 +1,52 @@
+
+<!DOCTYPE html> 
+<html>
+<head> 
+<!-- Rohit Purma --> 
+
+<title> Revenues </title> 
+
+<style>
+Body {background-color:lightgreen}
+</style>
+
+<script type="text/javascript" language="javascript" >
+
+</script>
+</head>
+
+<body>
+
+<h1> Revenues Calculations and Comparisons </h1>
+
+<table border=”1”> 
+<caption> Revenues table </caption> 
+<tr> 
+<th> Company A </th>
+<th> Company B </th>
+<th> Company C </th> </tr>
+<tr>
+<td> <input type=”text” id=”RevA”> </td>
+<td> <input type=”text” id=”RevB”> </td>
+<td> <input type=”text” id=”RevC”> </td> </tr>
+</table>
+
+<p>
+<button  id="avg" onclick="average" > Calculate Average </button>
+
+<input type=”text” id="avg" onchange="average">  </p>
+
+<script>
+	function average (RevA, RevB, RevC) {
+	var RevA=parseInt(document.getElementById("RevA").value); 
+	var RevB=parseInt(document.getElementById("RevB").value); 
+	var RevC=parseInt(document.getElementById("RevC").value);
+		
+	return ((RevA+RevB+RevC)/3);
+	} 
+	average.value=((RevA+RevB+RevC)/3);
+
+
+</script> 
+</body>
+</html>

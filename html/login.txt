@@ -1,0 +1,16 @@
+<!doctype  html>
+
+<html>
+<head>
+<title> Login Page </title>
+<h1> Dankbook</h1>
+</head>
+
+<body>
+	<br>Username: <input type="text" name="usename" maxlength="5"/><br>
+	<br>Password: <input type="passsword" name="pword"/><br>
+	<br>Male: <input type ="radio" name="sex" value="male"/><br>
+	<br>Female: <input type ="radio" name="sex" value="female"/><br>
+</body>
+</html>
+http://dankbook.comxa.com/dankbook.html

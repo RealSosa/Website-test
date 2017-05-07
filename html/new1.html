@@ -1,0 +1,32 @@
+<!doctype  html>
+
+<html>
+<head>
+
+<body>
+
+Cust1: <input id='cust1' type='text' /><br/>
+Cust2: <input id='cust2' type='text' /><br/>
+Cust3: <input id='cust3' type='text' /><br/>
+<button id='calculate'>Calculate</button><br/>
+Avg: <input id='average' type='text' /><br/>
+<script type="text/javascript" language="javascript" >
+<script src="jquery-1.12.4.min.js">
+ $(function(){
+        // On clicking the Calculate button
+        $('#calculate').on('click', function(){
+            // Get the value of user supplied income from the textbox
+            var sum = parseInt($('#cust1').val()+parseInt($('#cust2').val()+parseInt($('#cust3').val()),
+                average = 0;
+            average=sum/3;
+            }
+            // Set the new medicare and income values to the textboxes
+            $('#average').val(average);
+        });
+    });
+	</script>
+</script>
+
+</head>
+
+</html>
